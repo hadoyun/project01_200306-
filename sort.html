@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bubble sort!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+    function drawRects(){
+        var canvas = document.getElementById("rect1");
+
+        if(canvas.getContext){
+            var ctx = canvas.getContext('2d');
+        
+        ctx.fillStyle = 'rgb(255, 0, 0)';       
+        ctx.fillRect(10, 10, 80, 80);
+         }else{
+        alert("캔버스를 지원하지 않는 텍스쳐입니다.");
+        }
+    }
+</script>
+
+<body onload = "drawRects();">
+    <header class = "container">
+        <a href="#" class = "logo">
+            <img src= "imgs/191227-logo3.png" alt="로고" width="10%">
+        </a>
+           <ul>
+               <li>
+                   <a href = "#">홈으로</a>
+                </li>
+               <li>
+                   <a href = "#">다른 알고리즘</a>
+                </li>
+               <li>
+                   <a href = "#">소개</a>
+                </li>
+           </ul>
+    </haeder>
+
+    <article class = "container main-box"> 
+        <div clss = "text-box text-center">
+           <canvas id = "rect1" width="800" height="600">  </canvas>
+           <canvas id = "rect2" width="800" height="600">  </canvas>
+           <canvas id = "rect3" width="800" height="600">  </canvas>
+           <canvas id = "rect4" width="800" height="600">  </canvas>
+           <canvas id = "rect5" width="800" height="600">  </canvas>
+        </div>
+    </article>
+
+</body>
+</html>
