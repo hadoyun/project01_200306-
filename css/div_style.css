@@ -50,14 +50,6 @@ header ul li a:hover {
     background-size: cover;
 }
 
-rect1 {
-    
-    background-color: red;
-    width: 50px;
-    height: 50px;
-
-}
-
 .text-box {
     float: center;
     top: 100px;
@@ -79,3 +71,4 @@ button {
     text-decoration-color: coral;
     /*text-decoration: ; */
 }
+
